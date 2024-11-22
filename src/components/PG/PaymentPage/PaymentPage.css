@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: lavenderblush;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.payment-container {
+  width: 350px;
+  padding: 20px;
+  background-color: pink;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.payment-container h2 {
+  font-size: 1.8em;
+  color: darkmagenta;
+  margin-bottom: 20px;
+}
+
+.payment-container label {
+  display: block;
+  margin: 10px 0 5px;
+  color: black;
+}
+
+.payment-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.payment-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: lightskyblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.payment-container button:hover {
+  background-color: darkblue;
+}  
